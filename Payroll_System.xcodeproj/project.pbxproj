@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		9BF54CC4210A6281006C3EAD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF54CC3210A6281006C3EAD /* main.swift */; };
+		9BF54CCB210A62A5006C3EAD /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF54CCA210A62A5006C3EAD /* Vehicle.swift */; };
+		9BF54CCD210A62C5006C3EAD /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF54CCC210A62C5006C3EAD /* Car.swift */; };
+		9BF54CCF210A635E006C3EAD /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF54CCE210A635E006C3EAD /* Employee.swift */; };
+		9BF54CD1210A6380006C3EAD /* FullTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF54CD0210A6380006C3EAD /* FullTime.swift */; };
+		9BF54CD3210A6391006C3EAD /* PartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF54CD2210A6391006C3EAD /* PartTime.swift */; };
+		9BF54CD5210A639D006C3EAD /* Intern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF54CD4210A639D006C3EAD /* Intern.swift */; };
+		9BF54CD7210A63C1006C3EAD /* CommisionBasedPartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF54CD6210A63C1006C3EAD /* CommisionBasedPartTime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,13 @@
 /* Begin PBXFileReference section */
 		9BF54CC0210A6281006C3EAD /* Payroll_System */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Payroll_System; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF54CC3210A6281006C3EAD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9BF54CCA210A62A5006C3EAD /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		9BF54CCC210A62C5006C3EAD /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		9BF54CCE210A635E006C3EAD /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		9BF54CD0210A6380006C3EAD /* FullTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullTime.swift; sourceTree = "<group>"; };
+		9BF54CD2210A6391006C3EAD /* PartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartTime.swift; sourceTree = "<group>"; };
+		9BF54CD4210A639D006C3EAD /* Intern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intern.swift; sourceTree = "<group>"; };
+		9BF54CD6210A63C1006C3EAD /* CommisionBasedPartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommisionBasedPartTime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,13 @@
 			isa = PBXGroup;
 			children = (
 				9BF54CC3210A6281006C3EAD /* main.swift */,
+				9BF54CCA210A62A5006C3EAD /* Vehicle.swift */,
+				9BF54CCC210A62C5006C3EAD /* Car.swift */,
+				9BF54CCE210A635E006C3EAD /* Employee.swift */,
+				9BF54CD0210A6380006C3EAD /* FullTime.swift */,
+				9BF54CD2210A6391006C3EAD /* PartTime.swift */,
+				9BF54CD4210A639D006C3EAD /* Intern.swift */,
+				9BF54CD6210A63C1006C3EAD /* CommisionBasedPartTime.swift */,
 			);
 			path = Payroll_System;
 			sourceTree = "<group>";
@@ -119,7 +140,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BF54CCB210A62A5006C3EAD /* Vehicle.swift in Sources */,
+				9BF54CD5210A639D006C3EAD /* Intern.swift in Sources */,
+				9BF54CD7210A63C1006C3EAD /* CommisionBasedPartTime.swift in Sources */,
+				9BF54CD1210A6380006C3EAD /* FullTime.swift in Sources */,
+				9BF54CCF210A635E006C3EAD /* Employee.swift in Sources */,
+				9BF54CD3210A6391006C3EAD /* PartTime.swift in Sources */,
 				9BF54CC4210A6281006C3EAD /* main.swift in Sources */,
+				9BF54CCD210A62C5006C3EAD /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
